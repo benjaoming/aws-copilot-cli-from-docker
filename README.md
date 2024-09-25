@@ -11,7 +11,7 @@ docker build -t copilot:latest .
 
 # Add the following line to your shell environment.
 # For instance for bash:
-echo "alias copilot='docker run --rm -ti -v ~/.aws:/root/.aws -v $(pwd):/aws copilot:latest'" >> ~/.bashrc
+echo "alias copilot='docker run --rm -ti -v ~/.aws:/root/.aws -v \$(pwd):/aws copilot:latest'" >> ~/.bashrc
 
 # Restart your shell
 # Then try out the command:
